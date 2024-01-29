@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+h1{
+    margin: 0 auto;
+    background-color: #081b31;
+    color: white;
+    padding: 10px;
+    line-height: 5rem;
+    text-align: center;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: black;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+    /* this command used to cover the object inner content */
+    /* object-fit: cover; */
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+.score-boards{
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    margin-top: 20px;
+    gap: 50px;
+    font-size: 32px;
+}
+#user-score,#comp-score{
+    font-size: 50px;
+}
+.msg-container{
+    text-align: center;
+    margin-top: 50px;
+}
+#msg{
+    font-size: 30px;
+    display: inline;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #081b31;
+}
