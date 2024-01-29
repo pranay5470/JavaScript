@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    background-image: url(background.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+button{
+    margin: 2rem;
+    background-color: teal;
+    /* padding: 0.5rem, 1rem; */
+    padding: 10px 20px;
+    color: whitesmoke;
+    border: 0;
+    box-shadow: 0 0 12px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkslategray;
+}
+.modal{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.modal-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content{
+    margin-top: 130px;
+    background-color: white;
+    padding: 4rem;
+    position: relative;
+    cursor: pointer;
+}
+.modal.open{
+    display: flex;
+}
